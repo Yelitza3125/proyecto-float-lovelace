@@ -1,0 +1,30 @@
+
+/*Mediante el selector de etiqueta, se establece el estilo de h1; el texto que contiene se centra*/
+h1 {
+    text-align: center;
+    outline: 1px solid blue;
+}
+
+/*Con un selector de clase, cuyo valor del atributo clase es "caja", se establece la propiedad box-sizing a border box para que el ancho establecido se mantenga y no varíe al aplicar padding y margin. Se le establece la propiedad de flotante, para una mejor maquetación de la página*/
+.caja {
+    width: 450px;
+    /*outline: 1px solid red;*/
+    padding: 15px;
+    border: 1px solid #999;
+    margin-left: 8px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/*El elemento imagen tienen un ancho máximo de 100%, que está en relación al de su contenedor*/
+img {
+    outline: 1px solid green;
+    max-width: 100%;
+    
+}
+
+/*Se establece un outline en el elemento párrafo para poder ver el espacio que ocupa el párrafo*/
+p {
+    outline: 1px solid orange;
+}
+
